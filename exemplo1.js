@@ -1,3 +1,5 @@
+//AULA 6
+
 let valor = 7;
 
 console.log(valor);
