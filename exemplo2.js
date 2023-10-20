@@ -18,3 +18,7 @@ console.log("multiplicação", valor);
 valor /= 2;
 
 console.log("divisão", valor);
+
+//for na lógica é como se fosse um "para"
+
+
