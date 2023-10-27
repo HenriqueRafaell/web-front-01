@@ -1,8 +1,9 @@
 # web-front-01
 git status- pra saber o que eu to fazendo 
 git add . pra adicionar
-git comit -m"adicionado aqrquivo"
-git push origin nome_hrach - pra subir o arquivo
+git checkout -b"" para criar a branch
+git comit -m"adicionado arquivo"
+git push origin nome_brach - pra subir o arquivo
 
 
 CABEÇALHO DE DO JAVASCRIPT
