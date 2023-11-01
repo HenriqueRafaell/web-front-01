@@ -18,3 +18,81 @@ CABEÇALHO DE DO JAVASCRIPT
     
 </body>
 </html>
+
+AULA DE PYTHON DIA 01/11/2023
+'''
+#1
+def soma_elementos(numeros):
+    soma = 0
+    for num in numeros:
+        soma+= num
+    return soma
+
+#2
+def conta_praes(numeros):
+    print(numeros)
+    pares = []
+    for  num in  numeros:
+        print(f"Vou ver se o {num} é par ")
+        if num%2 == 0:
+            pares.append(num)
+            print(pares)
+        return pares
+#3 a sequencia de nuemeros na liosta tem uma lógica a ser seguida, onde o primeiro numero é o ponto de partida,
+# o segundo item é até onde ele vai e o ultimo é de quantos em quantos números ele vai ser contado.
+def ivertida_ruinzao(lista):
+
+    invertida = []
+    for i in range(len(lista)-1,-1,-1):
+     invertida.append(lista[i])
+    return invertida
+
+lista = [1,2,3,4,5]
+print(lista)
+def inverte_lista(lista):
+    ultimo = len(lista) - 1
+ultimo = len(lista) - 1
+    for i in range(len(lista)//2):
+     aux = lista[i]
+     lista[i] = lista[ultimo - i]
+     lista[ultimo - i] = aux
+    return lista
+
+def meu_len(lista):
+  comprimento = 0
+  for elemento in lista:
+    comprimento += 1
+    print(comprimento)
+
+
+#5
+
+A = [1,2,3,2,4,5,4]
+def remove_repeticoes(lista):
+    B = []
+    for elemen_a in A:
+     encontrei = False
+     for elemen_b in B:
+        if elemen_b == elemen_a:
+            encontrei = True
+     if encontrei == False:
+        B.append(elemen_a)
+     print(B)
+'''
+
+#7
+def acha_maior(lista):
+    indice_maior = 0
+    maior = lista[0]
+    for i in range(len(lista)):
+        candidato = lista[i]
+        if candidato > maior:
+            maior = candidato
+            indice_maior = i
+    return indice_maior
+lista = [1,2,3,4,5,6]
+
+
+
+
+
