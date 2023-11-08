@@ -120,6 +120,18 @@ for i in range(len(lista1)):
             print(lista)
 
 
+CALCULANDO E RETORNANDO PREÇOS DE UMA LISTA 
+def calcular_preco_total(lista):
+    total = 0
+    for item in lista:
+        if hasattr(item, 'preco') and isinstance(item.preco, (int, float)):
+            total += item.preco
+        else:
+            print(f"O item '{item}' não possui um atributo 'preco' válido.")
+
+    return total
+
+
 
 
 
