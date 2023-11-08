@@ -92,6 +92,33 @@ def acha_maior(lista):
     return indice_maior
 lista = [1,2,3,4,5,6]
 
+#6- Jeito de fazer por elemento
+def interseccao(lista1,lista2):
+    lista1 = [2,4,7,1,0,3]
+    lista2 = [9,1,6,0,4,5]
+    lista = []
+    for elem1 in lista1:
+        for elem2 in lista2:
+            print(elem1,elem2)
+            if elem1 == elem2:
+                lista.append(elem1)
+                print(lista)
+    return  lista
+lista1 = [2,4,7,1,0,3]
+lista2 = [9,1,6,0,4,5]
+inter = interseccao(lista1,lista2)
+
+
+#Jeito de fazer por indice
+print("Novo jeito : \n")
+lista = []
+for i in range(len(lista1)):
+    for j in range(len(lista2)):
+        print(lista1[i],lista2[j])
+        if lista1[i] == lista2[j]:
+            lista.append(lista2[j])
+            print(lista)
+
 
 
 
